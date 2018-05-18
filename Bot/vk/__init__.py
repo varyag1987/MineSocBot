@@ -1,0 +1,1 @@
+from .VkUser import VkUser
