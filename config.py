@@ -1,5 +1,5 @@
 VK = {
-	'login' : 'MashenkaMedvedeva1991@mail.ru',
-	'password' : '1Asdfg123456',
-	'scope' : 'FRIEND,WALL,GROUPS'
+	'login' : 'husifa@b2bx.net',
+	'password' : 'Asdfg1234567',
+	'scope' : 'FRIENDS,WALL,GROUPS'
 }

@@ -1,8 +1,4 @@
-import Bot
-
 class User:
-
-	#parser = Parser()
 
 	def __init__(self, handler):
 		self.is_auth = 0
@@ -16,11 +12,11 @@ class User:
 	def doLike(self,type_obj, owner_id, item_id):
 		self.handler.doLike(type_obj, owner_id, item_id)
 
-	def addFriend(self):
-		pass
+	def addFriend(self, user_id):
+		self.handler.addFriend(user_id)
 
-	def doRepost(self):
-		pass
+	def doRepost(self, repost):
+		self.handler.doRepost(repost)
 
-	def joinGroup(self):
-		pass
+	def joinGroup(self, group_id):
+		self.handler.joinGroup(group_id)
