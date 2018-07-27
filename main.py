@@ -5,7 +5,7 @@ from Bot.user import User
 
 manager = manager.Manager(100)
 manager.createUser( vk.VkUser(config.VK) )
-manager.start()
+#manager.start()
 #vkuser1 = User(vk.VkUser(config.VK))
 #vkuser1.auth()
 #user1.doLike('photo', 486783111, 456239019)
